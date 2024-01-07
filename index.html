@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.png">
+    <title>Counter</title>
+</head>
+<body>
+    <div id="number-settings-div">
+        <div id="number-div">
+            <h1 id="number">0</h1>
+        </div>
+        <div id="settings-div">
+            <div id="set-number-div" class="setting-divs">
+                <p id="setNumberTitle" class="setting-headers">Set number:</p>
+                <input inputmode="numeric" placeholder="number" id="setNumber" class="setting-inputs">
+                <button id="setNumberBTN" class="setting-buttons">Set number</button>
+            </div>
+            <div id="count-by-div" class="setting-divs">
+                <p id="countByTitle" class="setting-headers">Count by:</p>
+                <input inputmode="numeric"  placeholder="number" id="countBy" class="setting-inputs">
+                <button id="countByBTN" class="setting-buttons">Set "count by"</button>
+            </div>
+        </div>
+    </div>
+    <div id="plus-minus-div">
+        <button id="minus" class="count-buttons">-</button>
+        <button id="plus" class="count-buttons">+</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

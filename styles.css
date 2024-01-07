@@ -1,0 +1,78 @@
+/*
+
+Elements:
+ID:
+    #number - current number display
+    #setNumber - input used to set number
+    #countBy - input used to set how far it counts
+    #setNumberBTN - button used set number
+    #countByBTN - button used to activate the how far it counts
+    #setNumberTitle - settings set number header
+    #countByTitle - count by number header
+    #minus - minus button
+    #plus - pluss button
+Class:
+    .setting-headers - headers of the settings
+    .setting-inputs - inputs of the settings
+    .setting-buttons - the two count and set buttons
+    .count-buttons - the plus and minus buttons
+
+Divs
+    #number-settings-div
+    #number-div
+    #settings-div - the div holding the two setting divs
+    #set-number-div
+    #count-by-div
+    #plus-minus-div
+    .setting-divs
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#number-settings-div {
+    display: flex;
+}
+
+#number-div {
+    width: 80%;
+    text-align: center;
+}
+
+#number {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    margin-top: 40px;
+    font-size: 300px;
+}
+
+.setting-headers {
+    margin-top: 40px;
+}
+
+.setting-inputs {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.setting-buttons {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.setting-buttons:hover {
+    cursor: pointer;
+    transform: scale(1.05) 2s;
+}
+.count-buttons {
+    width: 40%;
+    height: 300px;
+    font-size: 200px;
+}
